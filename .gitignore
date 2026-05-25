@@ -1,0 +1,35 @@
+# Python caches and build output
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local environment and secrets
+.env
+.env.*
+
+# Agent/tool local state
+.claude/
+.codex/
+.agents/
+
+# OpenHive runtime state
+.openhive_memory_*.json
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
